@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+ul{ 
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-left: 40px;
+}
+ul, li, a{
+    text-decoration: none;
+    color: #3a3a3a;
+    display: inline-block;
+}
+ul, nav, li, a:hover{
+    color: #0046f8;
+    transition: 0.2s ease-in-out;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh-100px);
+    margin-top: 50px;
+
+}
+.pvtl{
+    max-width: 670px;
+    height: auto;
+}
+.content-left{
+    width: 30%;
+}
+main h1{
+    font-size: 60px;
+    color: #232248;
+    letter-spacing: 8px;
+}
+main h2 {
+    font-size: 25.25px;
+    color: #cd5b68 ;
+    font-weight: 400;
+}
+p{
+    line-height: 26.5px;
+    font-size: 14px;
+
+}
+.signup{
+    padding: 15px 30px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    background-color: #f7b542;
+    font-weight: 700;
+    color:rgb(204, 69, 1);
+    box-shadow: #4d3307;
+}    
+
+.signup-butt{
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    background-color: #f7b542;
+    font-weight: 700;
+    color:rgb(204, 69, 1);
+    font-size: 14px;
+    text-transform: uppercase;   
+}
